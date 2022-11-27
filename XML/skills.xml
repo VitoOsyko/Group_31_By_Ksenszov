@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SKILLS>
+    <GitBash>Commands</GitBash>
+	<HTML>The Basic of HTML</HTML>
+	<JIRA>The structure of a bug report</JIRA>
+	<TestTrail>Test Cases</TestTrail>
+	<TestCase> Exact teps to reproduce</TestCase>
+	<Checklist>Steps to reproduce</Checklist>
+	<JavaScript>Hello,World!</JavaScript>

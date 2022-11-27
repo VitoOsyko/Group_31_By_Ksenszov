@@ -1,0 +1,78 @@
+GitHub. HW_2
+1. На локальном репозитории сделать ветки для:
+- Postman
+- Jmeter
+- CheckLists
+- Bag Reports
+- SQL
+- Charles
+- Mobile testing
+$ git branch Postman 
+$ git branch Jmeter
+и т.д.
+git chechout -b Postman (создать ветку и сразу на нее перейти)
+
+2. Запушить все ветки на внешний репозиторий
+ находясь на ветки  main: git push -u --all
+ (git push -u origin Postman / если нужно запушить одну ветку) (-u пишеться единожды для того что бы сразу потом писать git push на ветке )
+  
+
+3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
+$ git checkout Bug-report
+$ cat > bug_report.txt
+
+Bug report 
+ID/name:
+Summary/Title: описание бага “Что? Где? Когда?”
+Project: название ПО
+Version/Build: версия ПО, в которой был обнаружен баг
+Severity (Blocker, Critical, Major, Minor, Trivial):показывает, насколько серьезные последствия от дефекта с точки зрения влияния на систему 
+Priority (High, Medium, Low): очередь, в которой баг будет исправляться
+Status:(Open, In Progress, Ready for check, Closed): текущий статус бага в его жизненном цикле
+TypeofBug(UI, UX, Functional, SEO):
+Author:
+Assigned to:
+Environment:  информация об окружении, на котором воспроизводится баг (версия браузера, операционная система, размер экрана, тестовый сервер и т.п.)
+Steps to Reproduce: действий, которые необходимо совершить, чтоб воспроизвести баг со всей необходимой информацией
+ExpectedResult:
+ActualResult:
+Attachment:
+
+4. Запушить структуру багрепорта на внешний репозиторий
+$ git add bug_report.txt
+$ git commit -m "add new file bug_report.txt"
+$ git push origin Bug-report
+
+5. Вмержить ветку Bag Reports в Main
+$ git checkout main
+$ git merge Bug-report -m "merge Bug-report"
+
+6. Запушить main на внешний репозиторий.
+$ git push
+
+7. В ветке CheckLists набросать структуру чек листа.
+$ git checkout CheckList
+$ cat > CheckList.txt
+Installs under a user account
+Installs under a power user account
+Installs under an administrator account	
+Completes a minimal installation
+Completes a typical installation
+Completes a full installation
+Completes a network installation
+Completes a local installation when you use Add or Remove Programs
+Performs Microsoft® Windows® operating system version checking correctly
+Lists on Start menu and has desktop shortcuts for all users
+
+8. Запушить структуру на внешний репозиторий
+$ git add CheckList1.txt
+$ git commit -m "add new file CheckList1.txt"
+$ git push origin CheckList
+
+9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
+github(находимся на ветке CheckLists) -> Pull request -> merge Pull request -> Confirm merge
+ gitbash -> git checkout main
+         
+
+10. Синхронизировать Внешнюю и Локальную ветки Main
+$ git fetch
