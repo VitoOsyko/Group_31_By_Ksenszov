@@ -1,4 +1,4 @@
-Film: cat and dogs
-TV Show: Map
-Dish: borscht
-Time of the year: Spring
+Film: 12 Years a Slave
+TV Show: La Casa De Papel
+Dish: Kharcho
+Time of the year: Summer
