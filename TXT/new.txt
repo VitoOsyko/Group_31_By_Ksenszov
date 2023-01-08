@@ -1,3 +1,0 @@
-Name: Vitaly
-Age: 26
-Number of pets: 2
