@@ -1,0 +1,16 @@
+Bug report 
+Summary : Menu: eroor, when the entrance.
+Type: Bug
+Affects version: 1.0
+Priority:Medium
+Severity: Major
+AffectsVersion: 1.0,
+Enviroment: Windows 10 Pro, Google Chrome 98
+Description:
+    FirstStep: Open web-site
+    SecondStep: pass authorization
+    ThirdStep: Press the button Menu,
+    FourthStep: Pay attention to the screen
+    ExpectedResult: Press the button Menu and see categories of products
+    ActualResult: Press the button Menu and see eror
+    Status: Open

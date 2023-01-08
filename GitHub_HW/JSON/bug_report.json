@@ -1,0 +1,9 @@
+{
+"Bug_id": 1,
+"Title": "The 'SAVE DATA' button is smaller than the others",
+"Severity": "trivial",
+"Priority": "low",
+"Environment": [ "Xiaomi Redmi S2", "Samsung Galaxy A8" "Xiaomi Redmi 5 Plus"],
+"AR": "The application buttons have one view",
+"ER": "The 'SAVE DATA' button is smaller than the others"
+}
