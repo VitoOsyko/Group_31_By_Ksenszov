@@ -1,0 +1,26 @@
+4***:Преобразовать задание 3* таким образом, чтобы возраст вводится используя функцию prompt в привязанной верстке
+
+<html>
+   <head>
+   </head>
+   <body>
+      <script>
+      let age = +prompt("Введите ваш возраст");
+      function func(){
+    if (typeof age !== 'number'){
+        alert("Error")
+    }
+    else if (age < 18) {
+        alert("You don`t have access cause your age is " + age + " It`s less then 18")
+    } else if (age >= 18 && age < 60){
+        alert("Welcome !")
+    } else if (age > 60){
+        alert("Keep calm and look Culture channel")  
+    } else {
+        alert("Technical work")    
+    }
+}
+func();
+	  </script>
+   </body>
+</html>
